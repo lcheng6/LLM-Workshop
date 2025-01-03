@@ -1,11 +1,11 @@
 numpy>=1.17,<2
 pandas
-transformers
+transformers<=4.33 --extra-index-url https://download.pytorch.org/whl/cu124
 accelerate
 peft
 trl
 datatrove
-unsloth[conda]@git+https://github.com/unslothai/unsloth.git
+unsloth[conda]
 deepspeed
 PyGithub
 flash-attn
