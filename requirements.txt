@@ -17,7 +17,6 @@ einops
 wandb
 tensorboard
 tiktoken
-
 scipy
 matplotlib
 sentencepiece
